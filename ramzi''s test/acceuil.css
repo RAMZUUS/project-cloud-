@@ -1,0 +1,17 @@
+div.main{
+
+}
+div.feet {
+    position: fixed;
+    bottom: 10%;
+    right: 45%;
+    width: 300px ;
+    transform: scale(1, 1.25);
+  }
+div.head{
+    position: fixed;
+    bottom: 130px;
+    right: 35%;
+    left: 5%;
+    background-color: transparent;
+}

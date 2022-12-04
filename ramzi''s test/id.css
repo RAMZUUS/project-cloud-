@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,500;1,700&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;}
+
+
+section{
+position: relative;
+display: flex;
+height: 100vh;
+width: 100%; }
+
+section .imgbox{
+position: relative;
+width: 50%;
+height: 100%;
+background: url("insc2.jpg"); 
+background-position: center;
+background-size: cover;}
+
+section .contentbox {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+height: 100%;}
+
+section .contentbox .formbox h2{
+color: #83a7c0;
+font-weight: 600;
+font-size: 1.2cm;
+text-transform: uppercase;
+margin-bottom: 20px;
+border-bottom: 4px solid #b38770;
+letter-spacing: 1px;
+display:inline-block;}
+
+.inputbx{
+margin-bottom: 20px; }
+
+.inputbx span {
+font-size: 16px;
+margin-bottom: 5px;
+display: inline-block;
+color: #607db8;
+font-weight: 300;
+letter-spacing: 1px; }
+
+.inputbx input{
+width: 100%;
+padding: 10px 20px;
+font-weight: 400;
+border: 1px solid #3f3331;
+letter-spacing: 1px;
+color: #3f3331;
+outline: none;
+background-color: transparent;
+border-radius: 10px;}
+
+
+.button{
+background-color: #78a3ad;
+border: none;
+color: white;
+text-align: center;
+border: 0;
+border-radius: 3rem;
+text-decoration: none;
+outline: 0;
+font-weight: 600;
+font-size: 1.2rem;
+cursor: pointer;}
+
+.button:hover{
+background-color: rgba(131, 167, 192.0.75);}
+
+
+
+
+
